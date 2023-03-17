@@ -1,0 +1,187 @@
+:root{
+
+    --ff-redhat: 'Red Hat Display', sans-serif;
+
+}
+
+
+body{
+
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+
+}
+
+
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    max-width: 450px;
+    max-height: 700px;
+    background-color: white;
+    overflow: hidden;
+    
+
+}
+
+.img_content{
+
+    display: flex;
+    
+}
+
+.order_summary{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+    
+
+}
+
+.order_summary h1{
+
+    font-family: var(--ff-redhat);
+    font-size: 24px;
+    font-weight: 900;
+    color:  hsl(223, 47%, 23%);
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.order_summary p{
+
+    font-family: var(--ff-redhat);
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    line-height: 24px;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.icon{
+
+    display: flex;
+    border-radius: 50%;
+    background-color: hsl(224, 23%, 55%);
+    overflow: hidden;
+    width: 40px;
+    
+}
+
+
+.plan{
+
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 353px;
+    height: 90px;
+    margin-top: 1.5rem;
+}
+
+.plan_type{
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 5rem;
+}
+
+.plan_type h2{
+
+    font-family: var(--ff-redhat);
+    font-size: 16px;
+    font-weight: 700;
+    color:  hsl(223, 47%, 23%);
+
+}
+.plan_type h3{
+
+    font-family: var(--ff-redhat);
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+   
+
+}
+
+.link{
+
+    font-family: var(--ff-redhat);
+    font-weight: 500;
+    font-size: 14px;
+    color:   hsl(245, 75%, 52%);
+    line-height: 24px;
+    text-decoration: underline;
+
+}
+
+
+.link:hover{
+
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 50%;
+
+}
+
+.button{
+
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-family: var(--ff-redhat);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 12px;
+    width: 353px;
+    height: 48px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 20px 8px hsla(245, 75%, 52%, 0.1);
+}
+
+
+.button:hover{
+
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.cancel{
+
+    font-family: var(--ff-redhat);
+    font-weight: 700;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    line-height: 24px;
+    text-align: center; 
+
+}
+
+.cancel:hover{
+
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+
+}
